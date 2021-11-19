@@ -1,0 +1,2 @@
+# FAQ
+RTM cli FAQ
