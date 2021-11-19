@@ -96,7 +96,7 @@ Dumps all wallet keys in a human-readable format to a file.
 ```curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "dumpwallet", "params": ["mykey"] }' -H 'content-type: text/plain;' http://127.0.0.1:9998/```
 
 testnet
-```curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "dumpwallet", "params": ["mykey"] }' -H 'content-type: text/plain;' http://127.0.0.1:9998/```
+```curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "dumpwallet", "params": ["mykey"] }' -H 'content-type: text/plain;' http://127.0.0.1:19998/```
 
 
 #### encryptwallet
@@ -414,7 +414,7 @@ Verify the signature
 ```curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "signmessage", "params": ["RTM1234567890123456789012345678900", "my message"] }' -H 'content-type: text/plain;' http://127.0.0.1:9998/```
 
 testnet
-```curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "signmessage", "params": ["RTM1234567890123456789012345678900", "my message"] }' -H 'content-type: text/plain;' http://127.0.0.1:9998/```
+```curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "signmessage", "params": ["RTM1234567890123456789012345678900", "my message"] }' -H 'content-type: text/plain;' http://127.0.0.1:19998/```
 
 
 #### unloadwallet
